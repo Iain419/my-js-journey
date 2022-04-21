@@ -1,0 +1,29 @@
+body{
+    background-image: url('back.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: grid;
+    place-items: center;
+    padding-top: 200px;
+}
+
+button{
+    width: 20em;
+    height: 40px;
+    padding: 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.increment{
+    background: darkred;
+}
+
+.save{
+    background: darkgreen;
+}
+
+#prev{
+    font-weight: bold;
+}

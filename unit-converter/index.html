@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="card">
+        <div class="metric">
+            <h2>Metric/Imperial Unit Conversion</h2>
+            <h1 class="value">0</h1>
+        </div>
+        <div class="conversions">
+            <h3>Length(Meter/Feet)</h3>
+            <p><span class="value">0</span> meters = <span id="tofeet">0</span> feet | <span class="value">0</span> feet = <span id="tometers">0</span> meters</p>
+
+            <h3>Volume(Litres/Gallons)</h3>
+            <p><span class="value">0</span> litres = <span id="togallonns">0</span> gallons | <span class="value">0</span> feet = <span id="tolitres">0</span> litres</p>
+
+            <h3>Mass(Kilograms/Pounds)</h3>
+            <p><span class="value">0</span> kilos = <span id="topounds">0</span> pounds | <span class="value">0</span> pounds = <span id="tokilos">0</span> kilos</p>
+        </div>
+    </div>
+    <script>
+        converter();
+        tofeet();
+        tometers();
+        togallonns();
+        tolitres();
+        topounds();
+        tokilos();
+    </script>
+</body>
+</html>
