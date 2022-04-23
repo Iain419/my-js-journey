@@ -1,0 +1,30 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    background-image: url(black.jpg);  
+    color: #fff;
+    font-weight: bold;
+
+}
+h1{
+    color: goldenrod;
+}
+
+#round{
+    font-style: italic;
+}
+
+button{
+    width: 150px;
+    padding: 5px 17px;
+    background: goldenrod;
+    font-weight: bold;
+    color: #016f32;
+    border: none;
+    border-radius:3px;
+
+}
+
+.newgame{
+    margin-top: 5px;
+}
