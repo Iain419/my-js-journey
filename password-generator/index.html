@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <div class="intro">
+            <h1 class="pass">Genreate a <span class="green">random password</span></h1>
+        </div>
+        <div class="insecure">
+            <h2>Never use an insecure password again.</h2> 
+        </div>
+        <button id="generator" onclick="passwgen()"><img class="light" src="/lightining.png" alt=""> Generate new passwords</button>
+
+        <div class="horizontal-line"></div>
+        <div class="pass-row-1">
+            <p class="password"><span id="pass-1" class="col-1"></span> <span id="pass-2" class="col-2"></span></p>
+        </div>
+
+        <div class="pass-row-2">
+            <p class="password"><span id="pass-3" class="col-1"></span> <span id="pass-4" class="col-2"></span></p>
+        </div>
+    </div>
+
+
+    <script src="main.js"></script>
+</body>
+</html>

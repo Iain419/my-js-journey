@@ -1,0 +1,106 @@
+html, body {
+    margin: 0;
+
+}
+
+body {
+    display: block;
+    align-items: center;
+}
+
+div.card {
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    width: 550px;
+    height: 700px;
+    background-color: #1F2937;
+}
+
+
+.password{
+    margin: 0;
+    password: 0;
+}
+
+.intro{
+    font: Karla;
+    color: #fff;
+    font-size: 20px;
+    padding: 118px 144px 0px 82px;
+    letter-spacing: -0.025em;
+
+}
+
+h1.pass{
+    margin-bottom: 4px;
+}
+
+.green{
+    color: #10B981;
+    ;
+}
+
+.insecure{
+    font: Karla;
+    color: #fff;
+    font-size: 20px;
+    width: px;
+    padding: 0 144px 10px 82px;
+    letter-spacing: -0.025em;
+}
+
+.insecure h2{
+    font-family: 'Inter';
+    font-style: nomal;
+    margin-top: 0;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 28px;
+}
+
+#generator{
+   width: 17em;
+   margin-left: 82px;
+   padding: 7px 17px 9px 17px;
+   color: #fff;
+   background: #10B981;
+   outline: none;
+   border-color: #10B981;
+   border-radius: 5px;
+}
+
+.light{
+    padding-right: 10px;
+}
+
+.horizontal-line{
+    width: 410px;
+    height: 1px;
+    color: #fff;
+    background:  #2F3E53;
+    margin: 30px 55px 10px 85px;
+}
+
+.password{
+    margin: 50px 50px 0 85px;
+    font-size: 17px;
+    color: #fff;
+    font-size: 20px;
+}
+
+.col-1{
+    background: #273549;
+    border-radius: 6px;
+    margin-right: 10px;
+    padding: 10px 30px;
+    width: 100%;
+}
+
+.col-2{
+    background: #273549;
+    border-radius: 6px;
+    padding: 10px 30px;
+    padding: 10px 30px;
+    width: 100%;
+}
