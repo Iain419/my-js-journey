@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Invoice Creator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap-grid.css">
+</head>
+<body>
+    <div class="card">
+        <div class="heading">
+            <h2>Invoice Creator</h2>
+            <p>Thanks for choosing your GoodCorp, LLC!</p>
+        </div>
+        <div class="card-body">
+            <div class="cardbtns">
+                <button class="card-button" id="value1"></button>
+                <button class="card-button" id="value2" class="lawn"></button>
+                <button class="card-button" id="value3"></button>
+            </div>
+            <div class="tasks">
+                <div class="row">
+                    <div class="col-6">
+                        <h4>TASK</h4>
+                    </div>
+                    <div class="col-6">
+                        <h4 class="tasktotal">TOTAL</h4>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="list" id="your-tasks"></div>
+            
+            <div class="line"></div>
+           <div class="notedtotal">
+               <div class="row">
+                   <div class="col-6">
+                       <h4>NOTES</h4>
+                   </div>
+                   <div class="col-6">
+                       <h4 class="total">TOTAL AMOUNT</h4>
+                   </div>
+               </div>
+           </div>
+
+           <div class="paymentcash">
+               <div class="row">
+                   <div class="col-6">
+                       <p class="payment">We accept cash, credit card, or paypal</p>
+                   </div>
+                   <div class="col-5 total">
+                       <h3 id="selected-task-price"></h3>
+                   </div>
+               </div>
+           </div>
+           
+           
+           <button class="sendinvoivebtn" onclick="sendinvoive()"> <img src="Icon.png" alt=""> Send invoive</button>
+           
+        </div>
+
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
